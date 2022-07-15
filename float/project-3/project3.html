@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* * {
+            background: rgba(0, 0, 250, 0.1) !important;
+            outline: 1px solid rgb(0, 50, 0) !important;
+        } */
+
+      .clearfix {
+        padding: 5rem;
+        border: 2px solid black;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        background-color: rgba(98, 65, 62, 0.9);
+      }
+
+      div .left-img img {
+        float: left;
+        border: 3px solid #000000;
+        padding: 10px;
+        background-color: grey;
+        margin-right: 16px;
+        margin-top: -16px;
+        border-radius: 15px;
+        padding: 0.3em;
+      }
+      div .left-img img::after {
+        clear: both;
+      }
+
+      .right-img img {
+        float: right;
+        border: 3px solid #000000;
+        padding: 10px;
+        background-color: gray;
+        margin-left: 16px;
+        margin-top: -16px;
+        border-radius: 15px;
+        padding: 0.3em;
+      }
+      .right-img img::after {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clearfix">
+      <div class="left-img">
+        <img
+          class="img2"
+          src="travis.webp"
+          alt="travis"
+          width="170"
+          height="170"
+        />
+      </div>
+      <h1>Travis Scott</h1>
+      <p>
+        Jacques Bermon Webster II, better known by his stage name Travis Scott,
+        is an American rapper, singer, songwriter, and record producer. His
+        stage name is the namesake of a favorite uncle combined with the first
+        name of one of his inspirations, Kid Cudi .He has been nominated for
+        eight Grammy Awards and won a Billboard Music Award and a Latin Grammy
+        Award.
+      </p>
+    </div>
+    <div class="clearfix">
+      <div class="right-img">
+        <img
+          class="img2"
+          src="scott.jpg"
+          alt="travis"
+          width="170"
+          height="170"
+        />
+      </div>
+      <h1>Albums</h1>
+      <p>
+        Owl Pharaoh | Days Before Rodeo | Rodeo (Expanded Edition) | Birds in
+        the Trap Sing McKnight | Travis La Flame | Astroworld | JACKBOYS |
+        UTOPIA
+      </p>
+    </div>
+  </body>
+</html>

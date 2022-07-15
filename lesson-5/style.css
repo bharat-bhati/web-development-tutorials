@@ -1,0 +1,42 @@
+p{
+    color: plum;
+}
+
+li{
+    list-style-type: square ;
+}
+
+.special{
+    color: gray;
+    font-weight: bolder;
+}
+
+.doom{
+    color:yellow;
+    font-weight: bolder;
+    font-style: calc();
+}
+
+li em{
+    color: rebeccapurple;
+}
+
+h6+p{
+    font-size: larger;
+}
+
+b:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+body h1 .welcome{
+    color: blue;
+    background-color:gray ;
+    padding: 0pc;
+}
+@media all and (min-width: 1001px){
+    #sidebar ul li a:after{
+        content: " ("attr(data-email)")";
+    }
+}

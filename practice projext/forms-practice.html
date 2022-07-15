@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <style>
+      div{
+        background-color: lightsteelblue;
+        background: fixed;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2><u>This Is Html Forms Tutorial :- </h2>
+    <form action="backend.php">
+      <label for="name">NAME :</label>
+      <div><input type="text" name="myname" id="name" /></div>
+      <br />
+      <div>ROLL:<input type="text" name="myroll" /></div>
+      <br />
+      <div>Email:<input type="email" name=" myemail" /></div>
+      <br />
+      <div>Date:<input type="date" name="mydate" /></div>
+      <br />
+      <div>Date:<input type="number" name="mybonus" /></div>
+      <br />
+      <div>Eligibility:<input type="checkbox" name="myeligibility" /></div>
+      <br />
+      <div>
+        Gender: Male<input type="radio" name="mygender" />Female<input
+          type="radio"
+          name="mygender"
+        />Other<input type="radio" name="mygender" />
+      </div>
+      <br />
+      <div>
+        <label for="car"> Car</label>
+        <select name="mycar" id="car">
+            <option value="pol">pollo</option>
+            <option value="civ">civic</option>
+            <option value="bee">beetle</option>
+            <option value="must">mustang'69</option>
+            <option value="sup" selected>supra</option>
+            <option value="thru">thrust ssc</option>
+        </select>
+      <div>
+        <br>
+        Write About Your Self :<br />
+        <textarea name="mytext" cols="20" rows="5"></textarea>
+      </div>
+      <br>
+      <div><input type="submit" value="Submit Now " /></div>
+    </form>
+  </body>
+</html>
